@@ -1,11 +1,18 @@
 html, body {
+    height:100%;
+    width:100%;
     font-family: Helvetica, Arial, sans-serif;
     font-size:14px;
+    color:#97a4be;
 }
 
 a, a:hover {
     text-decoration: none;
     color:#FFF;
+}
+
+section {
+    min-height:530px;
 }
 
 .bg-darkblue {
@@ -28,16 +35,8 @@ a, a:hover {
     color:#97a4be;
 }
 
-/*
-Global button style adjustments
-*/
-
-.btn {
-    border-radius:13px;
-}
-
-.btn-primary {
-    border:0px;
+.section-header {
+    font-size:2.2em;
 }
 
 /*
@@ -49,11 +48,9 @@ Navigation Styles
     color:#0bcac3;
 }
 
-.nav-bar {
+nav {
     border-bottom:1px solid #4e596c;
 }
-
-
 
 .navbar-link{
     color:#FFF;
@@ -63,6 +60,11 @@ Navigation Styles
 Header Section Styles
 */
 
+#header .btn {
+    border-radius:6px;
+}
+
+
 .headerTextTitle {
     font-size: 2.5em;
 }
@@ -71,6 +73,8 @@ Header Section Styles
     margin:auto;
     margin-top:3em;
     margin-bottom:3em;
+    line-height: 2.5em;
+    padding-right:18%;
 }
 
 #cp-t {
@@ -126,8 +130,8 @@ Header Section Styles
     margin-top:6px;
 }
 
-#cp-t-cam #cp-t-cricle {
-    
+#cp-bot-sec {
+    min-height:90px;
 }
 #cp-b {
     display:block;
@@ -149,6 +153,49 @@ Header Section Styles
     margin-bottom:6px
 }
 
-.headerImg {
+/*
+Services Section
+*/
 
+#nb-sline {
+    width: 100px;
+    height:7px;
+    display:block;
+    margin: auto;
+    margin-top:85px;
+    margin-bottom:85px;
+}
+
+.services-title {
+    font-size:1.2em;
+}
+
+.servicesContentBox {
+    margin:auto;
+    height:300px;
+    padding:8%;
+    background-color:#FFF;
+    display:inline-block;
+    border-radius: 2%;
+    line-height:2em;
+    box-shadow:2px 2px 4px 5px rgba(30, 43, 63, 0.1);
+}
+
+.servicesContentBox img {
+    margin-bottom:20px;
+}
+/*
+Company Info Section
+*/
+
+.cinfo-text {
+    line-height:2em;
+}
+
+/*
+Download Section
+*/
+
+#dl .btn {
+    border-radius:0px;
 }
