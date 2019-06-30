@@ -1,12 +1,154 @@
 html, body {
     font-family: Helvetica, Arial, sans-serif;
+    font-size:14px;
 }
 
-#nav-title {
-    font-size:30px;
-    color:#0bcac3;
+a, a:hover {
+    text-decoration: none;
+    color:#FFF;
 }
 
 .bg-darkblue {
-    background:#223047;
+    background-color:#223047;
+}
+
+.bg-neonblue{
+    background-color:#0bcac3;
+}
+
+.fontWhite {
+    color:#FFF;
+}
+
+.fontBlack {
+    color: #000;
+}
+
+.fontGreyBlue {
+    color:#97a4be;
+}
+
+/*
+Global button style adjustments
+*/
+
+.btn {
+    border-radius:13px;
+}
+
+.btn-primary {
+    border:0px;
+}
+
+/*
+Navigation Styles
+*/
+
+#nav-title {
+    font-size:2em;
+    color:#0bcac3;
+}
+
+.nav-bar {
+    border-bottom:1px solid #4e596c;
+}
+
+
+
+.navbar-link{
+    color:#FFF;
+}
+
+/*
+Header Section Styles
+*/
+
+.headerTextTitle {
+    font-size: 2.5em;
+}
+
+.headerText {
+    margin:auto;
+    margin-top:3em;
+    margin-bottom:3em;
+}
+
+#cp-t {
+    display:block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:285px;
+    height:500px;
+    background-color:#161f32;
+    padding:5px;
+}
+
+#cp-t-screen {
+    display:block;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width:265px;
+    height:500px;
+    background-color:#19ebea;
+    margin:auto;
+    margin-top:6px;
+    padding:0px;
+}
+
+#cp-t-cam{
+    display:block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width:130px;
+    height:20px;
+    background-color:#131316;
+    margin:auto;
+}
+
+#cp-t-cam #cp-t-rect {
+    width:40px;
+    height:5px;
+    border-radius: 15%;
+    display:block;
+    background-color:#3d4652;
+    margin:auto;
+    margin-top:7px;
+}
+
+#cp-t-cam #cp-t-circle {
+    padding:0px;
+    width:9px;
+    height:9px;
+    border-radius:50%;
+    display:block;
+    background-color:#3d4652;
+    margin:auto;
+    margin-top:6px;
+}
+
+#cp-t-cam #cp-t-cricle {
+    
+}
+#cp-b {
+    display:block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width:285px;
+    height:85px;
+    background-color:#161f32;
+}
+
+#cp-b-screen {
+    display:block;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width:265px;
+    height:75px;
+    background-color:#19ebea;
+    margin:auto;
+    margin-bottom:6px
+}
+
+.headerImg {
+
 }
