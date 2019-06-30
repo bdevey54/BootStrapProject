@@ -1,0 +1,12 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav-title {
+    font-size:30px;
+    color:#0bcac3;
+}
+
+.bg-darkblue {
+    background:#223047;
+}
