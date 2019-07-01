@@ -20,7 +20,7 @@ section {
 }
 
 .bg-neonblue{
-    background-color:#0bcac3;
+    background-color:#00fff1;
 }
 
 .fontWhite {
@@ -32,11 +32,15 @@ section {
 }
 
 .fontGreyBlue {
-    color:#97a4be;
+    color:#9eaac2;
+}
+
+.fontNeonBlue {
+    color:#00fff1;
 }
 
 .section-header {
-    font-size:2.2em;
+    font-size:2em;
 }
 
 /*
@@ -45,7 +49,7 @@ Navigation Styles
 
 #nav-title {
     font-size:2em;
-    color:#0bcac3;
+    color:#00fff1;
 }
 
 nav {
@@ -93,7 +97,7 @@ Header Section Styles
     border-top-right-radius: 25px;
     width:265px;
     height:500px;
-    background-color:#19ebea;
+    background-color:#00fff1;
     margin:auto;
     margin-top:6px;
     padding:0px;
@@ -148,7 +152,7 @@ Header Section Styles
     border-bottom-right-radius: 25px;
     width:265px;
     height:75px;
-    background-color:#19ebea;
+    background-color:#00fff1;
     margin:auto;
     margin-bottom:6px
 }
@@ -198,4 +202,91 @@ Download Section
 
 #dl .btn {
     border-radius:0px;
+}
+
+/*
+Quote Section
+*/
+#quoteSection {
+    min-height:330px;
+}
+
+#quoteSection .blockquote{
+    padding:0px;
+    font-size:1.3em;
+    line-height:1.8em;
+}
+
+/*
+AppAdd Section
+*/
+
+#appAdd button, #contactSec button {
+    box-shadow:0px 2px 24px 0px rgba(0, 255, 240, .8);
+}
+
+.GP-btn, .Apl-Btn {
+    border:0px;
+    display:inline-block;
+    height:43px;
+    width:144px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right:25px;
+}
+
+.GP-btn {
+    background-image: url("/imgs/googlePlayLink.png");
+}
+
+.Apl-btn {
+    background-image: url("/imgs/appleStoreLink.png");
+}
+
+/*
+Contact Section
+*/
+
+#contactSec {
+    min-height:0;
+}
+
+/*
+Footer Section
+*/
+
+footer {
+    min-height:100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li, footer ul li a {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin-right:25px;
+}
+
+.logoLinks {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fb {
+    background-image:url("/imgs/facebookLogo.png");
+}
+.twitter {
+    background-image:url("/imgs/twitterLogo.png");
+}
+.dribble {
+    background-image:url("/imgs/dribbleLogo.png");
+}
+.google {
+    background-image:url("/imgs/googleLogo.png");
+}
+.yt {
+    background-image:url("/imgs/youTubeLogo.png");
 }
