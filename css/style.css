@@ -176,8 +176,7 @@ Services Section
 
 .servicesContentBox {
     margin:auto;
-    height:300px;
-    padding:8%;
+    padding:6%;
     background-color:#FFF;
     display:inline-block;
     border-radius: 2%;
@@ -200,7 +199,7 @@ Company Info Section
 Download Section
 */
 
-#dl .btn {
+#dl .btn, #contactSec .btn, #appAdd .btn {
     border-radius:0px;
 }
 
