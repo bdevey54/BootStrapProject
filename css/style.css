@@ -221,7 +221,7 @@ Quote Section
 AppAdd Section
 */
 
-#appAdd button, #contactSec button {
+#appAdd .getApp, #contactSec button {
     box-shadow:0px 2px 24px 0px rgba(0, 255, 240, .8);
 }
 
